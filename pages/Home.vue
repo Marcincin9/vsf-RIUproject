@@ -107,6 +107,8 @@ import {
 import InstagramFeed from '~/components/InstagramFeed.vue';
 import MobileStoreBanner from '~/components/MobileStoreBanner.vue';
 import LazyHydrate from 'vue-lazy-hydration';
+import mart from '~/layouts/mart.vue'
+
 
 export default {
   name: 'Home',
@@ -263,7 +265,8 @@ export default {
     toggleWishlist(index) {
       this.products[index].isInWishlist = !this.products[index].isInWishlist;
     }
-  }
+  },
+  layout: 'mart',
 };
 </script>
 
