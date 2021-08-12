@@ -25,6 +25,7 @@
             @click="handleAccountClick"
           >
             <SfIcon
+              class="sf-header__icon"
               :icon="accountIcon"
               size="1.75rem"
             />
@@ -73,7 +74,7 @@
               @click="closeOrFocusSearchBar"
             >
               <span class="sf-search-bar__icon">
-                <SfIcon color="var(--c-text)" size="12px" icon="cross" />
+                <SfIcon color="var(--c-primary)" size="12px" icon="cross" />
               </span>
             </SfButton>
             <SfButton
@@ -82,7 +83,7 @@
               @click="isSearchOpen ? isSearchOpen = false : isSearchOpen = true"
             >
               <span class="sf-search-bar__icon">
-                <SfIcon color="var(--c-text)" size="15px" icon="search" />
+                <SfIcon color="var(--c-primary)" size="15px" icon="search" />
               </span>
             </SfButton>
           </template>
@@ -224,14 +225,18 @@ export default {
 <style lang="scss" scoped>
 
 
+
 .sf-header {
+   
   --header-padding:  var(--spacer-sm);
   @include for-desktop {
     --header-padding: 0;
+    border-top: var(--spacer-xs) solid var(--c-primary);
   }
   &__logo-image {
       height: 100%;
   }
+
 }
 .header-on-top {
   z-index: 2;

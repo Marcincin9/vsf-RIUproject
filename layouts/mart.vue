@@ -27,7 +27,7 @@
 <script>
 import AppHeader from '~/components/mart/AppHeader.vue';
 import BottomNavigation from '~/components/BottomNavigation.vue';
-import AppFooter from '~/components/AppFooter.vue';
+import AppFooter from '~/components/mart/AppFooter.vue';
 import TopBar from '~/components/TopBar.vue';
 import CartSidebar from '~/components/CartSidebar.vue';
 import WishlistSidebar from '~/components/WishlistSidebar.vue';
@@ -82,6 +82,7 @@ body {
   font-family: var(--font-family--primary);
   margin: 0;
   padding: 0;
+  background-color: #F1F2F3;
 }
 a {
   text-decoration: none;

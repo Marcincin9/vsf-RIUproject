@@ -205,28 +205,28 @@ export default {
         {
           title: 'Cream Beach Bag',
           image: '/homepage/productA.webp',
-          price: { regular: '50.00 $' },
-          rating: { max: 5, score: 4 },
+          price: { regular: '29.99 $' },
+          rating: { max: 5, score: 5 },
           isInWishlist: true
         },
         {
           title: 'Cream Beach Bag',
           image: '/homepage/productB.webp',
-          price: { regular: '50.00 $' },
-          rating: { max: 5, score: 4 },
+          price: { regular: '15.99 $' },
+          rating: { max: 5, score: 4.5 },
           isInWishlist: false
         },
         {
           title: 'Cream Beach Bag',
           image: '/homepage/productC.webp',
-          price: { regular: '50.00 $' },
-          rating: { max: 5, score: 4 },
+          price: { regular: '48.99 $' },
+          rating: { max: 5, score: 5 },
           isInWishlist: false
         },
         {
           title: 'Cream Beach Bag',
           image: '/homepage/productA.webp',
-          price: { regular: '50.00 $' },
+          price: { regular: '29.99 $' },
           rating: { max: 5, score: 4 },
           isInWishlist: false
         },
